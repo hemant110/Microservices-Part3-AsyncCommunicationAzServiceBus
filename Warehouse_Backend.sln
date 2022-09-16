@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B1105690-41B6-4A18-81B4-C41611D8B112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderReceive", "OrderReceive\OrderReceive.csproj", "{C24D8FB8-30FE-429F-A415-0F19E7633DFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{34C6B8C8-01E6-475B-AC58-AB9CFD88E077}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.Integration.Messages", "Warehouse.Integration.Message\Warehouse.Integration.Messages.csproj", "{C0D3B75E-2C3A-4652-A9CB-E90830A0EB12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse.Integration.MessagingBus", "Warehouse.Integration.MessagingBus\Warehouse.Integration.MessagingBus.csproj", "{FE301BE0-7FB2-4893-B49C-B5614290B2B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QCService", "QCService\QCService.csproj", "{E8B01579-25D7-4420-9E5C-23058900CFB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService", "InventoryService\InventoryService.csproj", "{80552BC6-DE2E-4020-903B-685784BA62A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C24D8FB8-30FE-429F-A415-0F19E7633DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24D8FB8-30FE-429F-A415-0F19E7633DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24D8FB8-30FE-429F-A415-0F19E7633DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24D8FB8-30FE-429F-A415-0F19E7633DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D3B75E-2C3A-4652-A9CB-E90830A0EB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D3B75E-2C3A-4652-A9CB-E90830A0EB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D3B75E-2C3A-4652-A9CB-E90830A0EB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D3B75E-2C3A-4652-A9CB-E90830A0EB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE301BE0-7FB2-4893-B49C-B5614290B2B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE301BE0-7FB2-4893-B49C-B5614290B2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE301BE0-7FB2-4893-B49C-B5614290B2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE301BE0-7FB2-4893-B49C-B5614290B2B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B01579-25D7-4420-9E5C-23058900CFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B01579-25D7-4420-9E5C-23058900CFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B01579-25D7-4420-9E5C-23058900CFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B01579-25D7-4420-9E5C-23058900CFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80552BC6-DE2E-4020-903B-685784BA62A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80552BC6-DE2E-4020-903B-685784BA62A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80552BC6-DE2E-4020-903B-685784BA62A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80552BC6-DE2E-4020-903B-685784BA62A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C24D8FB8-30FE-429F-A415-0F19E7633DFA} = {B1105690-41B6-4A18-81B4-C41611D8B112}
+		{C0D3B75E-2C3A-4652-A9CB-E90830A0EB12} = {34C6B8C8-01E6-475B-AC58-AB9CFD88E077}
+		{FE301BE0-7FB2-4893-B49C-B5614290B2B3} = {34C6B8C8-01E6-475B-AC58-AB9CFD88E077}
+		{E8B01579-25D7-4420-9E5C-23058900CFB6} = {B1105690-41B6-4A18-81B4-C41611D8B112}
+		{80552BC6-DE2E-4020-903B-685784BA62A7} = {B1105690-41B6-4A18-81B4-C41611D8B112}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D336D29-C2C7-49AA-83E5-E2AC083B15FF}
+	EndGlobalSection
+EndGlobal
